@@ -7,7 +7,7 @@ let package = Package(
         .library(name: "LLCycleScrollView", targets: ["LLCycleScrollView"])
     ],
     targets: [
-        .target(name: "LLCycleScrollView", dependencies: [])
+        .target(name: "LLCycleScrollView", dependencies: ["Kingfisher"])
     ],
     swiftLanguageVersions: [.v5]
 )
