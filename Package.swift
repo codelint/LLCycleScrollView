@@ -10,7 +10,7 @@ let package = Package(
         .package(url: "https://github.com/onevcat/Kingfisher.git", .upToNextMinor(from: "6.1.1"))
     ],
     targets: [
-        .target(name: "LLCycleScrollView", path: "Lib/LLCycleScrollView", dependencies: ["Kingfisher"])
+        .target(name: "LLCycleScrollView", dependencies: ["Kingfisher"])
     ],
     swiftLanguageVersions: [.v5]
 )
